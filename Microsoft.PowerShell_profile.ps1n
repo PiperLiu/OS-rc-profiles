@@ -1,0 +1,16 @@
+# Disable default keys
+Remove-PSReadLineKeyHandler 'Ctrl+r'
+
+Import-Module posh-git
+Import-Module oh-my-posh
+Import-Module PoShFuck
+Import-Module PSFzf
+
+Set-Theme Paradox
+
+Set-PSReadlineKeyHandler -Key Tab -Function MenuComplete
+
+function lsc {
+    Param ([int]$c = 5)
+    ls | Format-Wide -Column $c -Property Name
+}
