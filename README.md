@@ -2,6 +2,7 @@
 ## Very Basic Profile
 ### Linux
 When getting a Linux server, `~/.vimrc` it: [.vimrc](./.vimrc), no need for any plugins.
+**However, I found that using `wget -qO- https://raw.github.com/ma6174/vim/master/setup.sh | sh -x` from [github.com/ma6174/vim](https://github.com/ma6174/vim) is quite easier and better.**
 
 Then `zsh`:
 ```
