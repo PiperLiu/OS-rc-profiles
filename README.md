@@ -1,4 +1,16 @@
 # rc files
+
+<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
+
+<!-- code_chunk_output -->
+
+- [rc files](#rc-files)
+  - [Very Basic Profile](#very-basic-profile)
+    - [Linux](#linux)
+    - [Windows: PS and Windows Terminal](#windows-ps-and-windows-terminal)
+
+<!-- /code_chunk_output -->
+
 ## Very Basic Profile
 ### Linux
 When getting a Linux server, `~/.vimrc` it: [.vimrc](./.vimrc), no need for any plugins.
@@ -28,6 +40,8 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
 Then, `~/.zshrc`: [.zshrc](./zshrc).
 
 ### Windows: PS and Windows Terminal
+Following is old version of configuration, see more in [ps/README](./ps/README.md)
+
 Mainly refer to [this article](https://www.bilibili.com/read/cv3878542), in powershell:
 ```
 # install chocolatey
